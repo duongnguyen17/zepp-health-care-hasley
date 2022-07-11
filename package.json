@@ -1,0 +1,22 @@
+{
+  "name": "zepp-health-care-hasley",
+  "version": "1.0.0",
+  "description": "this lib custom from react-native-send-intent. i add a func navigate to Zepp App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duongnguyen17/zepp-health-care-hasley.git"
+  },
+  "keywords": [
+    "zepp-health-care-hasley"
+  ],
+  "author": "duongnguyen17",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duongnguyen17/zepp-health-care-hasley/issues"
+  },
+  "homepage": "https://github.com/duongnguyen17/zepp-health-care-hasley#readme"
+}
