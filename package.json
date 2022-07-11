@@ -1,6 +1,6 @@
 {
   "name": "zepp-health-care-hasley",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this lib custom from react-native-send-intent. i add a func navigate to Zepp App",
   "main": "index.js",
   "scripts": {
