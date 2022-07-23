@@ -55,7 +55,7 @@ declare namespace SendIntentAndroid {
   const openChooserWithOptions: (options: ChooserOptions, title: string) => void
   const openChooserWithMultipleOptions: (options: ChooserOptions[], title: string) => void
   const openMaps: (query: string) => void
-  const gotoZepp: () => void
+  const gotoOtherApp: (appName: string) => Promise<boolean>
   const openCamera: () => void
   const openMapsWithRoute: (query: string, mode: string)=> void
   const shareTextToLine: (options: TextToLineOptions)=> void

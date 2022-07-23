@@ -259,18 +259,18 @@ public class RNSendIntentModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public boolean gotoZepp() {
+    public void gotoOtherApp(String appName, final Promise promise) {
         PackageManager manager = reactContext.getPackageManager();
         try {
-            Intent i = manager.getLaunchIntentForPackage("com.huami.watch.hmwatchmanager");
+            Intent i = manager.getLaunchIntentForPackage(appName);
             if (i == null) {
-                return false;
+                promise.resolve(false);
+                return;
             }
             i.addCategory(Intent.CATEGORY_LAUNCHER);
             this.reactContext.startActivity(i);
-            return true;
         } catch (Exception e) {
-            return false;
+            promise.reject(e);
         }
     }
 
