@@ -12,7 +12,7 @@ E.g.: You have and short text and want to share in a SMS or Whatsapp.
 npm install zepp-health-care-hasley --save
 ```
 
-### I have add gotoZepp to nav to Zepp app
+### I have add gotoOtherApp to nav to other app
 
 ## License
 
